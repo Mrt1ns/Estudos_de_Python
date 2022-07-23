@@ -1,13 +1,23 @@
 nome = input(' Digite seu nome completo: ')
 
-maiscula = print(nome.upper())
+#maiscula = print(nome.upper())
 
-minuscula = print(nome.lower())\
+#minuscula = print(nome.lower())\
 
-junto = nome.replace(' ', '')
+#junto = nome.replace(' ', '')
 
-print ('Tem exatamente {} letras, no nome {}'.format(len(junto), nome))
+#print ('Tem exatamente {} letras, no nome {}'.format(len(junto), nome))
 
-div = nome.split()
+#div = nome.split()
 
-print(div[0])
+#print(div[0])
+
+print(nome.upper())
+
+print(nome.lower())
+
+nome.replace(' ', '')
+
+print('Tem exatamente {} letras, no nome {}'.format(len(nome), nome))
+
+print(nome.split()[0])
